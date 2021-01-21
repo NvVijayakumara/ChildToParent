@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Child Window" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <TextBlock>Student Name</TextBlock>
+            <TextBox x:Name="tbStudentName" Margin="0, 0, 0, 10"></TextBox>
+            <TextBlock>Student Class</TextBlock>
+            <TextBox x:Name="tbStudentClass" Margin="0, 0, 0, 10"></TextBox>
+            <TextBlock>Student City</TextBlock>
+            <TextBox x:Name="tbStudenCity" Margin="0, 0, 0, 10"></TextBox>
+            <Button Click="Button_Click">Add student</Button>
+        </StackPanel>
+    </Grid>
+</Window>
